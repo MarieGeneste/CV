@@ -1,2 +1,2 @@
-# CV
-Projet 2 CorrTech
+# Projet_2_CV
+Projet individuel CorrTech - HTML CSS3 Bootstrap
