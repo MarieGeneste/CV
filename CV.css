@@ -4,12 +4,18 @@ body
   background-image: url(Images/vertical_code.jpg);
 }
 
-h1
+.titre
 {
   font-size: 48px;
+  width: 100%;
 }
 
-h1, nav
+.metier
+{
+  width: 100%;
+}
+
+.titre, nav, .progress
 {
   font-family: 'Indie Flower', cursive;
   font-weight: bold;
@@ -37,4 +43,32 @@ h1, nav
 {
     margin-top: .6rem;
       color: #c7dced;
+}
+
+#competences
+{
+  display: flex;
+  align-content: space-between;
+  align-items: center;
+  text-align: center;
+  background-color: #c7dced;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.progress
+{
+  margin: 10px;
+  background-color: rgba(2, 26, 70, 0.6);
+  align-items: center;
+  height: 20px;
+}
+
+.progress-bar
+{
+  height: 20px;
+}
+
+#front, #back
+{
+  margin-bottom: 20px;
 }

@@ -17,13 +17,14 @@
 </head>
 
 <body>
+<div class="container-fluid">
 
-  <div class="jumbotron text-center" style="margin-bottom:0">
-    <h1>Miss Libellule</h1>
-    <p>Développeuse Web</p>
+  <div class="row jumbotron text-center" style="margin-bottom:0">
+    <div class="col-ms-12 titre">Miss Libellule</div>
+    <div class="col-ms-12 metier">Développeuse Web</div>
   </div>
 
-  <nav class="navbar navbar-expand-md sticky-top bg-dark navbar-dark">
+  <nav class="row navbar navbar-expand-md sticky-top bg-dark navbar-dark">
     <a class="navbar-brand d-md-none" href="#">MENU</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
       <span class="navbar-toggler-icon"></span>
@@ -49,11 +50,65 @@
     </div>
   </nav>
 
+  <div class="row" id="competences">
+
+    <div class="col-ms-6 text-center" style="width:50%" id="front"> FRONT-END
+
+      <div class="progress">
+        <div class="progress-bar progress-bar-striped bg-success progress-bar-animated" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">Maquette
+        </div>
+      </div>
+
+      <div class="progress">
+        <div class="progress-bar progress-bar-striped bg-info progress-bar-animated" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">HTML5 & CSS3 - Bootstrap
+        </div>
+      </div>
+
+      <div class="progress">
+        <div class="progress-bar progress-bar-striped bg-warning progress-bar-animated" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">JavaScript
+        </div>
+      </div>
+
+      <div class="progress">
+        <div class="progress-bar progress-bar-striped bg-danger progress-bar-animated" role="progressbar" style="width: 0%" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">E-Commerce & CMS
+        </div>
+      </div>
+
+    </div>
+
+    <div class="col-ms-6 text-center" style="width:50%" id="back">BACK-END
+
+      <div class="progress">
+        <div class="progress-bar progress-bar-striped bg-success progress-bar-animated" role="progressbar" style="width: 0%" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">SGBD
+        </div>
+      </div>
+
+      <div class="progress">
+        <div class="progress-bar progress-bar-striped bg-info progress-bar-animated" role="progressbar" style="width: 10%" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100">PHP & SQL
+        </div>
+      </div>
+
+      <div class="progress">
+        <div class="progress-bar progress-bar-striped bg-warning progress-bar-animated" role="progressbar" style="width: 0%" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">Programmation
+        </div>
+      </div>
+
+      <div class="progress">
+        <div class="progress-bar progress-bar-striped bg-danger progress-bar-animated" role="progressbar" style="width: 0%" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">Développement CMS
+        </div>
+      </div>
+
+    </div>
+
+  </div>
 
 
-  <div class="jumbotron sticky-bottom text-center" style="margin-bottom:0">
+
+  <div class="row jumbotron sticky-bottom text-center" style="margin-bottom:0">
     <p>Footer</p>
   </div>
+
+</div>
 
 </body>
 
