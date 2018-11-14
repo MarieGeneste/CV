@@ -4,6 +4,7 @@ body
   background-image: url(Images/vertical_code.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+  background-attachment: fixed;
   color: rgba(19, 38, 57, 0.9);
   font-weight: bold;
   font-size: 20px;
@@ -47,7 +48,7 @@ body
     width: 100%;
   }
 
-  .titre, nav, .progress, h2, .content p, .jumbotron
+  .titre, nav, .progress, h2, .content p, .jumbotron, h4
   {
     font-family: 'Indie Flower', cursive;
     font-weight: bold;
@@ -86,7 +87,7 @@ body
     -1px 1px 0 #000,
      1px 1px 0 #000;
      margin-top: .6rem;
-     font-size: 30px;
+     font-size: 28px;
   }
 
   .navbar-dark .navbar-nav .nav-link:hover
@@ -115,7 +116,7 @@ body
     background-color: #304e58!important;
 }
 
-  #competences hr, #formations hr
+  #competences hr, #formations hr, #recommandations hr
   {
     background-color: rgba(48, 78, 88, 0.9);
   }
@@ -378,7 +379,8 @@ h2
 {
   width: 30%;
   display: flex;
-  justify-content: center; align-items: center;
+  justify-content: center;
+  align-items: center;
   background-color: rgba(225, 213, 165, .6);
   padding: 0;
 }
@@ -397,4 +399,40 @@ h2
 #exemple:hover
 {
   opacity: 0.6;
+}
+
+/* Recommandations */
+
+#recommandations
+{
+  display: flex;
+  align-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: #e1d5a5;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+#carouselExampleIndicators
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  height: 400px;
+  background-color: rgba(48, 78, 88, 0.8);
+}
+
+#recommandations h4
+{
+  font-size: 26px;
+  color: white;
+  margin-bottom: 48px;
+}
+
+#recommandations p
+{
+  font-style: italic;
+  color: #343a40;
 }
