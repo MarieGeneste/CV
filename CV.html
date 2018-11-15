@@ -19,39 +19,39 @@
 <body>
 <div class="container-fluid">
 
-  <div class="row jumbotron text-center" style="margin-bottom:0">
-    <div id="photo">
+  <div class="row jumbotron text-center justify-content-center" style="margin-bottom:0">
+    <div id="photo" class="col-md-8 col-ms-2">
       <img src="Images/profil.jpg" alt="photo de profil" />
     </div>
     <div class="col-ms-12 titre">Miss Libellule</div>
-    <div class="col-ms-12 metier">Développeuse Web</div>
+    <div class="col-ms-12 devweb">Développeuse Web</div>
+    <a href="Images/CV_Développeuse_Web_CORTECH_Contrat_Pro.pdf" target="_blank" download="mon_CV" class="btn btn-secondary btn-lg active" role="button" aria-pressed="true">Télécharger CV</a>
   </div>
 
   <nav class="row navbar navbar-expand-md sticky-top bg-dark navbar-dark">
-    <a class="navbar-brand d-md-none" href="#">MENU</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+    <a class="col-ms-10 navbar-brand d-md-none" href="#photo">MENU</a>
+    <button class="col-ms-2 navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse text-center navbar-collapse" id="collapsibleNavbar">
       <ul class="navbar-nav">
         <li class="nav-item">
-          <a class="nav-link" href="#comP">Compétences</a>
+          <a class="nav-link" href="#competences">Compétences</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#exP">Expériences professionnelles</a>
+          <a class="nav-link" href="#experience">Expériences professionnelles</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#forM">Formations</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#porT">Portfolio</a>
+          <a class="nav-link" href="#portfolio">Portfolio</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#reC">Recommandations</a>
         </li>
       </ul>
     </div>
-    <div id="comP"></div>
   </nav>
 
 
@@ -62,8 +62,8 @@
         <h2>Compétences</h2>
       </div>
 
-
-    <div class="col-ms-6 text-center" style="width:50%" id="front">
+  <div class="row container-fluid">
+    <div class="col-md-6 col-sm-12 text-center" style="width:100%" id="front">
       <h3>FRONT-END</h3>
 
       <div class="progress">
@@ -88,7 +88,7 @@
 
     </div>
 
-    <div class="col-ms-6 text-center" style="width:50%" id="back">
+    <div class="col-md-6 col-sm-12 text-center" style="width:100%" id="back">
       <h3>BACK-END</h3>
 
       <div class="progress">
@@ -112,7 +112,7 @@
       </div>
 
     </div>
-    <div id="exP"></div>
+  </div>
   </div>
 
 <div id="experience">
@@ -126,49 +126,61 @@
 <div class="timeline">
   <div class="card container left">
     <div class="content">
-      <h3 class="card-header">2017</h3>
+      <h3 class="card-header">2016 - Secrétaire juridique</h3>
         <div class="card-body">
-          <p class="card-text">Lorem ipsum dolor sit amet, quo ei simul congue exerci, ad nec admodum perfecto mnesarchum, vim ea mazim fierent detracto.</p>
+          <p class="card-text"><strong>SELARL SOL MARCHE CAETANO - Avocats - TULLE (19)</strong><br />
+            <em>Septembre 2016 à Août 2018</em><br />
+            Agent 		Ouverture et gestion des dossiers, procédures, gestion des délais, agendas, rédaction d’actes</p>
       </div>
     </div>
   </div>
   <div class="card container right">
     <div class="content">
-      <h3 class="card-header">2017</h3>
+      <h3 class="card-header">2016 - Vendeuse</h3>
         <div class="card-body">
-          <p class="card-text">Lorem ipsum dolor sit amet, quo ei simul congue exerci, ad nec admodum perfecto mnesarchum, vim ea mazim fierent detracto. </p>
+          <p class="card-text"><strong>DECATHLON EASY  - TULLE (19)</strong> <br />
+          <em>Mai 2016 à Septembre 2016</em><br />
+          Agent 		Facing, conseil clientèle, gestion des stocks, caisse</p>
       </div>
     </div>
   </div>
   <div class="card container left">
     <div class="content">
-      <h3 class="card-header">2017</h3>
+      <h3 class="card-header">2016 - Adjoint Administratif</h3>
         <div class="card-body">
-          <p class="card-text">Lorem ipsum dolor sit amet, quo ei simul congue exerci, ad nec admodum perfecto mnesarchum, vim ea mazim fierent detracto. Ea quis iuvaret expetendis his, te elit voluptua dignissim per, habeo iusto primis ea eam.</p>
+          <p class="card-text"><strong>Maison Départementale de l’Autonomie  - TULLE (19)</strong><br />
+            <em>Février 2015 à Mars 2016</em><br />
+            Agent 		Instruction, gestion des dossiers d’Aide Sociale aux personnes âgées en établissement</p>
       </div>
     </div>
   </div>
   <div class="card container right">
     <div class="content">
-      <h3 class="card-header">2017</h3>
+      <h3 class="card-header">2015 - Préleveuse & Préparatrice d’Analyses</h3>
         <div class="card-body">
-          <p class="card-text">Lorem ipsum dolor sit amet, quo ei simul congue exerci, ad nec admodum perfecto mnesarchum, vim ea mazim fierent detracto. Ea quis iuvaret expetendis his, te elit voluptua dignissim per, habeo iusto primis ea eam.</p>
+          <p class="card-text"><strong>Laboratoire Départemental d’Analyses de la Corrèze - TULLE (19)</strong><br />
+            <em>Mars 2013 à Janvier 2015</em><br />
+            Prélèvements et analyses de l’eau & Manipulation de produits chimiques, préparation de milieux de culture</p>
       </div>
     </div>
   </div>
   <div class="card container left">
     <div class="content">
-      <h3 class="card-header">2017</h3>
+      <h3 class="card-header">2013 - Opératrice</h3>
         <div class="card-body">
-          <p class="card-text">Lorem ipsum dolor sit amet, quo ei simul congue exerci, ad nec admodum perfecto mnesarchum, vim ea mazim fierent detracto. Ea quis iuvaret expetendis his, te elit voluptua dignissim per, habeo iusto primis ea eam.</p>
+          <p class="card-text"><strong>Usine Borgwarner - EYREIN (19)</strong><br />
+            <em>Août 2012 à Mars 2013</em><br />
+            Assemblage de pièces (en 2x12h le week-end).</p>
       </div>
     </div>
   </div>
   <div class="card container right">
     <div class="content">
-      <h3 class="card-header">2017</h3>
+      <h3 class="card-header">2010 - Hôtesse de caisse</h3>
         <div class="card-body">
-          <p class="card-text">Lorem ipsum dolor sit amet, quo ei simul congue exerci, ad nec admodum perfecto mnesarchum, vim ea mazim fierent detracto. Ea quis iuvaret expetendis his, te elit voluptua dignissim per, habeo iusto primis ea eam.</p>
+          <p class="card-text"><strong>But Distribution - TULLE (19) & Géant Casino - MALEMORT (19)</strong><br />
+            <em>Juin 2010 & 2007 / 2008</em><br />
+            Agent 		Encaissements, gestion des commandes et livraisons</p>
       </div>
     </div>
   </div>
@@ -178,39 +190,52 @@
 </div>
 <!-- fermeture expériences -->
 
-<div class="row jumbotron-fluid" id="formations">
+<div class="row jumbotron-fluid justify-content-space-around" id="formations">
   <div class="col-ms-12 text-center" style="width:100%">
     <hr />
     <h2>Formations</h2>
   </div>
-  <div class=" jumbotron container col-lg-3 col-md-6 col-sm-12 text-center">
-    <h3 class="display-4">Fluid jumbotron</h3>
-    <p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
+  <div class=" jumbotron container col-lg-3 col-md-5 col-sm-12 text-center">
+    <h3 class="display-4">FORMATION DEVELOPPEUR.SE WEB</h3>
+    <p class="lead"><strong>Corrèze Digital School – Association CorrTech - TULLE (19</strong>)<br />
+    <em>2018 / 2020 (en cours)</em><br />
+    3 mois de formation intensive en présentiel (méthode pédagogique SIMPLON) + 1 an en contrat de professionnalisation</p>
   </div>
-  <div class="jumbotron container col-lg-3 col-md-6 col-sm-12 text-center">
-    <h3 class="display-4">Fluid jumbotron</h3>
-    <p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
+  <div class="jumbotron container col-lg-3 col-md-5 col-sm-12 text-center">
+    <h3 class="display-4">CONCOURS ADJOINTE ADMINISTRATIVE 1ERE CLASSE</h3>
+    <p class="lead"><em>2016</em><br />
+    Fonction Publique Territoriale</p>
   </div>
-  <div class="jumbotron container col-lg-3 col-md-6 col-sm-12 text-center">
-    <h3 class="display-4">Fluid jumbotron</h3>
-    <p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
+  <div class="jumbotron container col-lg-3 col-md-5 col-sm-12 text-center">
+    <h3 class="display-4">CAP COIFFURE</h3>
+    <p class="lead"><strong>CFA Les 13 Vents - TULLE (19)</strong><br />
+    <em>2011 / 2012</em><br />
+    En Apprentissage - 2M Coiffure - TULLE (19) </p>
   </div>
-  <div class="jumbotron container col-lg-3 col-md-6 col-sm-12 text-center">
-    <h3 class="display-4">Fluid jumbotron</h3>
-    <p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
+  <div class="jumbotron container col-lg-3 col-md-5 col-sm-12 text-center">
+    <h3 class="display-4">FORMATION GESTIONNAIRE NEGOCIATEUR IMMOBILIER</h3>
+    <p class="lead"><strong>CCI - LIMOGES (87)</strong> <br />
+    <em>Octobre 2008 à Décembre 2009</em><br />
+    En Apprentissage- Agence Immobilière du Centre - LIMOGES (87) <br />
+    Gestion du service location : relation clients, rédaction de baux, organisation des interventions de prestataires</p>
   </div>
-  <div id="porT"></div>
+  <div class="jumbotron container col-lg-3S col-md-5 col-sm-12 text-center">
+    <h3 class="display-4">BACCALAUREAT SCIENTIFIQUE</h3>
+    <p class="lead"><strong>Lycée Edmond Perrier - TULLE (19)</strong><br />
+    <em>2007</em><br />
+    </p>
+  </div>
 </div>
 <!-- fermeture formations !) -->
 
 <div id="portfolio">
 
-  <div class="col-ms-4 text-center" style="width:100%">
+  <div class="text-center" style="width:100%">
     <hr />
     <h2>Portfolio</h2>
   </div>
 
-  <div class="card container">
+  <div class="col-lg-4 col-md-6 col-sm-12 card container">
     <div class="content">
       <h3 class="card-header">Projet 1 - Travel Agency</h3>
         <div class="card-body">
@@ -238,7 +263,7 @@
         <h4>"Déterminée à prendre un nouvel envol,<br />
           nouveau tournant et progression étonnante pour une si petite bête..."</h4>
         <p>
-          <strong>Miss Gre Nouille</strong>, Reine(tte) de sôts
+          <strong>Miss Gre Nouille</strong>, Reine(tte) de Sôts
         </p>
       </div>
       <div class="carousel-item">
@@ -262,9 +287,9 @@
 </div>
 <!-- fermeture container-fluid (juste avant le footer !) -->
 
-<div class="container-fluid">
+<div id="footer" class="container-fluid justify-content-center">
   <div class="row jumbotron sticky-bottom text-center" style="margin-bottom:0">
-    <p>Footer</p>
+    <h1 class="titre">Miss Libellule<br />. . .</h1>
   </div>
 </div>
 
